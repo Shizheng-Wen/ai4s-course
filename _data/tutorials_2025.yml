@@ -25,8 +25,16 @@
   solutions_url: https://colab.research.google.com/drive/1DBZW3AYwzQaxUoXjRxNQml7ClUQFJCR9?usp=sharing
 
 - date: 10/20
+  topics: No Tutorial This Week.
+    
+  exercise_url: 
+  solutions_url: 
 
 - date: 10/27
+  topics:
+    Convolutional Neural Operator
+  exercise_url: https://colab.research.google.com/drive/1CRSgqS6f5zej4LVbx8zAPTg9UXIAMjEK?usp=sharing
+  solutions_url: 
 
 - date: 11/3
 
