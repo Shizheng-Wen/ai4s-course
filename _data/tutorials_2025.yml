@@ -34,13 +34,25 @@
   topics:
     Convolutional Neural Operator
   exercise_url: https://colab.research.google.com/drive/1CRSgqS6f5zej4LVbx8zAPTg9UXIAMjEK?usp=sharing
-  solutions_url: 
+  solutions_url: https://colab.research.google.com/drive/1h4oq7zneSJlJkJQFx7GBGs0eGldcWWH2?usp=sharing
 
 - date: 11/3
+  topics:
+    Time-Dependent CNO
+  exercise_url: https://colab.research.google.com/drive/1CRSgqS6f5zej4LVbx8zAPTg9UXIAMjEK?usp=sharing
+  solutions_url: https://colab.research.google.com/drive/1HjZinZK5dE2iUINfAergezmaK1HCKgWY?usp=sharing
 
 - date: 11/10
+  topics:
+    Vision Transformer for solving PDEs
+  exercise_url: https://colab.research.google.com/drive/1k0Yy0wyklBtCdjn00YVXFk3DNqNcJByw?usp=sharing
+  solutions_url: https://colab.research.google.com/drive/1_VgQBG3hb1HZbWemaYiwL-Tvmf4HnVx5?usp=sharing
 
 - date: 11/17
+  topics: 
+    Graph Neural Network for solving PDEs
+  exercise_url: https://colab.research.google.com/drive/1COkEWIImS-Ov7VxMMomHccyU129-_zsr?usp=sharing
+  solutions_url: https://colab.research.google.com/drive/1COkEWIImS-Ov7VxMMomHccyU129-_zsr?usp=sharing
 
 - date: 11/24
 
