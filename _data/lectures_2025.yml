@@ -129,8 +129,37 @@
     - <a href="https://arxiv.org/abs/2501.19205">RIGNO:A Graph-based framework for robust and accurate operator learning for PDEs on arbitrary domains</a> <br/>
 
 - date: 11/20
+  title: >
+    Week 10 <strong>Operator Learning - GAOT</strong> <a href="AISE25Lect10.pdf">[slides]</a> <a href="https://ethz.zoom.us/rec/play/kep06HEchxzegb1Xs8zg4oTpdxNM4mD6uQNy8A50cQtoVfWFVdzWywMFkpwyK8cUl4vSERuiSny8nm49.xWOA5z-KrhTRKVk7?eagerLoadZvaPages=sidemenu.billing.plan_management&accessLevel=meeting&canPlayFromShare=true&from=share_recording_detail&startTime=1763622637000&componentName=rec-play&originRequestUrl=https%3A%2F%2Fethz.zoom.us%2Frec%2Fshare%2FaaUiKKbPCzQy-t7mFpzNcHP4hLa7Eh8wEdCm602uK4XOcbqpNw9F-LUX32VJ2LNm.F8k-5Zs8ehc2jE2S%3FstartTime%3D1763622637000">[recording]</a>
+  slides:
+  topics:
+    - Efficiency-Accuracy Trade-off in Operator Learning.
+    - Geometry Aware Operator Transformer (GAOT) for operator learning.
+    - Operator Learning for industrial-scale 3D datasets.
+
+  readings:
+    - <a href="https://arxiv.org/abs/2505.18781">Geometry Aware Operator Transformer as an Efficient and Accurate Neural Surrogate for PDEs on Arbitrary Domains</a> <br/>
+    - <a href="https://arxiv.org/abs/2309.00583">Geometry-Informed Neural Operator for Large-Scale 3D PDEs</a> <br/>
+    - <a href="https://arxiv.org/abs/2402.02366">Transolver:A Fast Transformer Solver for PDEs on General Geometries</a> <br/>
+    - <a href="https://arxiv.org/abs/2406.09624">DrivAerNet++:A Large-Scale Multimodal Car Dataset with Computational Fluid Dynamics Simulations and Deep Learning Benchmarks</a> <br/>
+    - <a href="https://arxiv.org/abs/2408.11969">DrivAerML:High-Fidelity Computational Fluid Dynamics Dataset for Road-Car External Aerodynamics</a> <br/>
+
+
 
 - date: 11/27
+  title: >
+    Week 11 <strong>Generative model for PDE - GenCFD</strong> <a href="AISE25Lect11.pdf">[slides]</a>
+  slides:
+  topics:
+    - Diffusion-based generative models for PDEs with chaotic multiscale solutions.
+    - Insensitivity of neural networks to the input.
+
+  readings:
+    - <a href="https://arxiv.org/abs/2006.11239">Denoising Diffusion Probabilistic Models</a> <br/>
+    - <a href="https://arxiv.org/abs/2409.18359">Generative AI for fast and accurate statistical computation of fluids</a> <br/>
+    - <a href="https://arxiv.org/abs/2506.03111">Rectified Flows for Fast Multiscale Fluid Flow Modeling</a> <br/>
+
+
 
 - date: 12/4
 

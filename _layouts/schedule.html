@@ -35,9 +35,10 @@ layout: default
     <table class="table table-hover">
       <colgroup>
         <col style="width:10%">
-        <col style="width:50%">
-        <col style="width:20%">
-        <col style="width:20%">
+        <col style="width:45%">
+        <col style="width:15%">
+        <col style="width:15%">
+        <col style="width:15%">
       </colgroup>
       <thead class="thead-light">
         <tr>
@@ -45,6 +46,7 @@ layout: default
           <th scope="col">Topics</th>
           <th scope="col">Exercise</th>
           <th scope="col">Solutions</th>
+          <th scope="col">Materials</th>
         </tr>
       </thead>
       <tbody>
@@ -80,11 +82,30 @@ layout: default
                 {{ item.solutions }}
               {% endif %}
             </td>
+            <td>
+              {% if item.materials %}
+                {% if item.materials.first %}
+                  {% for m in item.materials %}
+                    {% if m.url %}
+                      <div><a href="{{ m.url | relative_url }}" target="_blank">{{ m.label | default: '[pdf]' }}</a></div>
+                    {% else %}
+                      <div><a href="{{ m | relative_url }}" target="_blank">[pdf]</a></div>
+                    {% endif %}
+                  {% endfor %}
+                {% else %}
+                  <a href="{{ item.materials | relative_url }}" target="_blank">[pdf]</a>
+                {% endif %}
+              {% elsif item.materials_url %}
+                <a href="{{ item.materials_url | relative_url }}" target="_blank">[pdf]</a>
+              {% elsif item.pdf_url %}
+                <a href="{{ item.pdf_url | relative_url }}" target="_blank">[pdf]</a>
+              {% endif %}
+            </td>
           </tr>
           {% endfor %}
         {% else %}
           <tr>
-            <td colspan="4">No tutorials yet.</td>
+            <td colspan="5">No tutorials yet.</td>
           </tr>
         {% endif %}
       </tbody>

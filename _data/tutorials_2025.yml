@@ -53,12 +53,25 @@
     Graph Neural Network for solving PDEs
   exercise_url: https://colab.research.google.com/drive/1COkEWIImS-Ov7VxMMomHccyU129-_zsr?usp=sharing
   solutions_url: https://colab.research.google.com/drive/1COkEWIImS-Ov7VxMMomHccyU129-_zsr?usp=sharing
+  materials_url: /fall2025/schedule/tutorial8.pdf
 
 - date: 11/24
+  topics: 
+    Geometry Aware Operator Transformer
+  exercise_url: https://colab.research.google.com/drive/14yz--Upmy7IlJ-ACcbpL6yA3tSQhuJ-b?usp=sharing
+  solutions_url: https://colab.research.google.com/drive/1-Yr1nwka82zpT1TRRWY1f0xWl5BOTe4P?usp=drive_link
+  materials_url: /fall2025/schedule/tutorial9.pdf
 
 - date: 12/1
+  topics: 
+    Score-Based Diffusion Models
+
 
 - date: 12/8
+  topics: No Tutorial This Week.
+    
+  exercise_url: 
+  solutions_url: 
 
 - date: 12/15
 
